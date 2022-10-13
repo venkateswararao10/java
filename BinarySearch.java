@@ -4,8 +4,6 @@ public class BinarySearch {
     { if (l>r){
         return -1;
     }
-    
-
         else if (r >= l) {
             int mid = l + (r - l) / 2;
  
@@ -17,13 +15,11 @@ public class BinarySearch {
             else if (arr[mid] > x)
                 return binarySearch(arr, l, mid - 1, x);
  
-            // Else the element can only be present
-            // in right subarray
+          
             return binarySearch(arr, mid + 1, r, x);
         }
  
-        // We reach here when element is not present
-        // in array
+        // We reach here when element is not present in array
         return -1;
     }
     public static void main(String[] args){
