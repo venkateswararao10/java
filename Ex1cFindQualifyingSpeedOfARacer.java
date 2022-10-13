@@ -14,7 +14,7 @@ public class Ex1cFindQualifyingSpeedOfARacer {
         double avgspeed=(sum/5);
         for (int i=0;i<size;i++){
             if (speed[i]>avgspeed){
-                System.out.println("The racer "+i+1+" with speed "+speed[i]+" is qualified ");
+                System.out.println("The racer "+(i+1)+" with speed "+speed[i]+" is qualified ");
             }
         }
         sc.close();
