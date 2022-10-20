@@ -6,7 +6,7 @@ public class Ex3aimplementclassmechanism {
         System.out.println("metd");
     }
     public static void main(String[] args){
-        method();
+        method(); //or Ex3aimplementclassmechanism.method();
         Ex3aimplementclassmechanism cla= new Ex3aimplementclassmechanism();
         cla.metd();
     }
