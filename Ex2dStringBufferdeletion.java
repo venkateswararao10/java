@@ -12,11 +12,10 @@ public class Ex2dStringBufferdeletion {
         sb.delete(2, 5);
         System.out.println(sb);
         // delete particular character
-        sb.insert(0, "good day");
-        System.out.println(sb);
-        sb.deleteCharAt(6);
-        System.out.println(sb);
-        
-        
+        StringBuffer sb1=new StringBuffer();
+        sb1.insert(0, "good day");
+        System.out.println(sb1);
+        sb1.deleteCharAt(6);
+        System.out.println(sb1);
     }
 }
